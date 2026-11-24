@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <style>
-    .tile { fill: #16181b; }
-    .ink { stroke: #f7f6f2; }
-    .accent { fill: #7cc6b2; }
+    .tile { fill: #0f172a; }
+    .ink { stroke: #f8fafc; }
+    .accent { fill: #7aa2ff; }
     @media (prefers-color-scheme: dark) {
-      .tile { fill: #ecebe6; }
-      .ink { stroke: #16181b; }
-      .accent { fill: #1b675a; }
+      .tile { fill: #e6eaf2; }
+      .ink { stroke: #0f172a; }
+      .accent { fill: #2451e0; }
     }
   </style>
   <rect class="tile" width="32" height="32" rx="7"/>

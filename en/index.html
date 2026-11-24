@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ihor Klymenko · Full-stack engineer (Rails, React, TypeScript)</title>
+  <meta name="description" content="Full-stack engineer: Ruby on Rails and React/TypeScript. I build products end to end with AI agents: specs, orchestration, automated verification, human review.">
+  <meta name="author" content="Ihor Klymenko">
+  <link rel="canonical" href="https://ihorklym.github.io/cv/en/">
+  <link rel="alternate" hreflang="uk" href="https://ihorklym.github.io/cv/">
+  <link rel="alternate" hreflang="en" href="https://ihorklym.github.io/cv/en/">
+  <link rel="alternate" hreflang="x-default" href="https://ihorklym.github.io/cv/">
+
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111316" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Ihor Klymenko · CV">
+  <meta property="og:title" content="Ihor Klymenko · Full-stack engineer">
+  <meta property="og:description" content="Ruby on Rails and React/TypeScript. I build products end to end with AI agents.">
+  <meta property="og:url" content="https://ihorklym.github.io/cv/en/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="uk_UA">
+  <meta property="og:image" content="https://ihorklym.github.io/cv/assets/og-en.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Ihor Klymenko, full-stack engineer">
+  <meta property="profile:first_name" content="Ihor">
+  <meta property="profile:last_name" content="Klymenko">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400..600&amp;family=Manrope:wght@400..800&amp;display=swap">
+  <link rel="stylesheet" href="../assets/style.css">
+
+  <script>
+    /* Runs before first paint: saved theme, plus opt-in classes for motion.
+       Without JS (or with reduced motion) nothing is ever hidden. */
+    (function () {
+      var d = document.documentElement;
+      d.className = d.className.replace(/\bno-js\b/, 'js');
+      try {
+        var t = localStorage.getItem('cv-theme');
+        if (t === 'light' || t === 'dark') d.setAttribute('data-theme', t);
+      } catch (e) {}
+      if ('IntersectionObserver' in window && window.matchMedia &&
+          !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        d.className += ' can-reveal';
+        setTimeout(function () {
+          if (!window.__cvReveal) d.className = d.className.replace(/\s*can-reveal\b/, '');
+        }, 2500);
+      }
+    })();
+  </script>
+  <script src="../assets/main.js" defer></script>
+
+  <!-- When LinkedIn is known, add its URL to "sameAs" below. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ihor Klymenko",
+    "alternateName": "Ігор Клименко",
+    "jobTitle": "Full-stack engineer",
+    "url": "https://ihorklym.github.io/cv/en/",
+    "sameAs": ["https://github.com/IhorKlym"],
+    "knowsAbout": ["Ruby on Rails", "React", "TypeScript", "AI-assisted software development"]
+  }
+  </script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="#top">
+        <span class="brand__mark" aria-hidden="true">IK</span>
+        <span>Ihor Klymenko</span>
+      </a>
+
+      <nav class="nav" aria-label="Page sections">
+        <ul>
+          <li><a href="#ai">AI</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-tools">
+        <nav class="lang-switch" aria-label="Language">
+          <a href="../" hreflang="uk" lang="uk" data-lang-link>UA<span class="visually-hidden"> (українська)</span></a>
+          <span class="lang-switch__sep" aria-hidden="true">/</span>
+          <a href="./" hreflang="en" lang="en" aria-current="page" data-lang-link>EN<span class="visually-hidden"> (English)</span></a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-pressed="false" title="Dark theme" data-theme-toggle>
+          <span class="visually-hidden">Dark theme</span>
+          <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 14.6A8.2 8.2 0 1 1 9.4 4a6.6 6.6 0 0 0 10.6 10.6Z"/></svg>
+          <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2.8v1.9M12 19.3v1.9M4.9 4.9l1.3 1.3M17.8 17.8l1.3 1.3M2.8 12h1.9M19.3 12h1.9M4.9 19.1l1.3-1.3M17.8 6.2l1.3-1.3"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="progress" aria-hidden="true"></div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero__grid">
+        <div class="hero__main">
+          <p class="eyebrow hero__eyebrow hero-in" style="--d:0"><span>CV</span><span>Ruby on Rails · React · TypeScript</span></p>
+          <h1 id="hero-title" class="hero-in" style="--d:1">Ihor Klymenko</h1>
+          <p class="hero__role hero-in" style="--d:2">Full-stack engineer. I build products end to end <em>with AI agents</em>.</p>
+          <p class="hero__about hero-in" style="--d:3">I work on Rails backends, React and TypeScript frontends, Expo mobile apps, Telegram bots and Mini Apps. I ship my own products solo: agents write most of the code, while architecture, verification and review stay with me. My PhD research is on the reliability of human-machine interaction in ERP systems.</p>
+
+          <!-- Contacts: replace each placeholder <span class="placeholder" ...> with the real value, e.g.
+               <a class="link" href="mailto:name@example.com">name@example.com</a>
+               <a class="link" href="tel:+380000000000">+380 00 000 00 00</a>
+               <a class="link" href="https://t.me/username">@username</a> -->
+          <dl class="facts hero-in" style="--d:4">
+            <div>
+              <dt>Location</dt>
+              <dd>Ukraine <span class="placeholder" data-todo="city">[ add: city ]</span></dd>
+            </div>
+            <div class="todo-wrap">
+              <dt>Experience</dt>
+              <dd><span class="placeholder" data-todo="years-experience">[ add: years of experience ]</span></dd>
+            </div>
+            <div class="todo-wrap">
+              <dt>Email</dt>
+              <dd><span class="placeholder" data-todo="email">[ add: email ]</span></dd>
+            </div>
+            <div class="todo-wrap">
+              <dt>Phone</dt>
+              <dd><span class="placeholder" data-todo="phone">[ add: phone ]</span></dd>
+            </div>
+            <div class="todo-wrap">
+              <dt>Telegram</dt>
+              <dd><span class="placeholder" data-todo="telegram">[ add: Telegram ]</span></dd>
+            </div>
+            <div class="todo-wrap">
+              <dt>LinkedIn</dt>
+              <dd><span class="placeholder" data-todo="linkedin">[ add: LinkedIn ]</span></dd>
+            </div>
+          </dl>
+
+          <div class="hero__actions hero-in" style="--d:5">
+            <a class="btn btn--solid" href="https://github.com/IhorKlym" rel="me">
+              github.com/IhorKlym
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg>
+            </a>
+            <!-- When the PDF exists, replace this <span> with:
+                 <a class="btn" href="../assets/ihor-klymenko-cv-en.pdf" download>
+                   <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></svg>
+                   CV as PDF
+                 </a> -->
+            <span class="btn btn--todo todo-wrap">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></svg>
+              CV as PDF
+              <span class="placeholder" data-todo="cv-pdf">[ add: PDF file ]</span>
+            </span>
+          </div>
+          <p class="print-only hero__online">Online version: ihorklym.github.io/cv/en</p>
+        </div>
+
+        <!-- Photo slot. To use a photo, replace the <span class="portrait__mono"> below with:
+             <img src="../assets/photo.jpg" alt="Ihor Klymenko" width="416" height="520">
+             (in the root index.html the path is assets/photo.jpg) and remove aria-hidden from this div. -->
+        <div class="portrait hero-in" style="--d:2" data-todo="photo" aria-hidden="true">
+          <span class="portrait__mono">IK</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 01 Working with AI -->
+    <section class="section section--feature" id="ai" aria-labelledby="ai-title">
+      <div class="wrap section__grid">
+        <div class="section__head">
+          <span class="section__num">01</span>
+          <h2 class="section__title" id="ai-title">Working with AI</h2>
+        </div>
+        <div class="section__body">
+          <p class="lead reveal">I use Claude Code every day as my primary development environment. Agents write most of the code; I act as architect, reviewer and integrator: I frame the task, break it into steps, check the result and decide what makes it into main.</p>
+
+          <ol class="principles">
+            <li class="principle reveal">
+              <span class="principle__num">01</span>
+              <h3 class="principle__title">Orchestrator and sub-agents</h3>
+              <p>One session plans the work and verifies the result; separate sub-agents write the code and run independent reviews. I pick the model per task: a heavier one for substantive changes, a lighter one for routine work.</p>
+            </li>
+            <li class="principle reveal">
+              <span class="principle__num">02</span>
+              <h3 class="principle__title">Agent-ready repositories</h3>
+              <p>Harness engineering: conventions in CLAUDE.md and AGENTS.md, persistent project memory of decisions made and known pitfalls, and custom skills. Among them: an engineering-strategy framework, a repository harness audit, and a browser-automation skill that fills in time tracking through Playwright MCP.</p>
+            </li>
+            <li class="principle reveal">
+              <span class="principle__num">03</span>
+              <h3 class="principle__title">The spec is the source of truth</h3>
+              <p>Numbered requirements define what gets built. Requirement IDs go into code annotations and tests, and an automated check shows what is covered and what is not. The rule is simple: one step, one session, one pull request.</p>
+            </li>
+            <li class="principle reveal">
+              <span class="principle__num">04</span>
+              <h3 class="principle__title">Scheduled agents</h3>
+              <p>Every day a scheduled agent goes through the GitHub issues assigned to me. Simple ones it ships as pull requests after a real local test run; for complex ones it writes an analysis. It never merges anything on its own.</p>
+            </li>
+            <li class="principle reveal">
+              <span class="principle__num">05</span>
+              <h3 class="principle__title">Verification over trust</h3>
+              <p>Tests and CI on GitHub Actions, end-to-end checks through Playwright and MCP, headless runs plus real Safari and Chrome, screenshots from real devices. Every pull request is reviewed and merged by a human.</p>
+            </li>
+            <li class="principle reveal">
+              <span class="principle__num">06</span>
+              <h3 class="principle__title">LLMs inside the product</h3>
+              <p>For me AI is not only a development tool. In Sumy Safety Bot, Claude Haiku classifies messages from several Telegram channels into structured JSON; the pipeline then de-duplicates them and posts one consolidated alert to a channel.</p>
+            </li>
+          </ol>
+
+          <div class="loop reveal">
+            <h3 class="eyebrow">Typical loop</h3>
+            <ol class="loop__steps">
+              <li class="loop__step" style="--i:0">
+                <span class="loop__idx">1</span>
+                <span class="loop__name">Spec</span>
+                <span class="loop__note">numbered requirements with IDs</span>
+              </li>
+              <li class="loop__step" style="--i:1">
+                <span class="loop__idx">2</span>
+                <span class="loop__name">Plan</span>
+                <span class="loop__note">steps the size of one PR</span>
+              </li>
+              <li class="loop__step" style="--i:2">
+                <span class="loop__idx">3</span>
+                <span class="loop__name">Agents implement</span>
+                <span class="loop__note">sub-agents, model per task</span>
+              </li>
+              <li class="loop__step" style="--i:3">
+                <span class="loop__idx">4</span>
+                <span class="loop__name">Automated verification</span>
+                <span class="loop__note">tests, CI, real browsers</span>
+              </li>
+              <li class="loop__step loop__step--human" style="--i:4">
+                <span class="loop__idx">5</span>
+                <span class="loop__name">Human review and merge</span>
+                <span class="loop__note">agents never merge</span>
+              </li>
+            </ol>
+          </div>
+
+          <div class="outcome reveal">
+            <p class="outcome__text"><strong>What it adds up to.</strong> I take a complete product to production on my own (API, bot, worker, mini app, infrastructure, docs), a scope that would normally need a small team.</p>
+            <ul class="stats">
+              <li class="stat">
+                <span class="stat__value">~50</span>
+                <span class="stat__label">planned tasks / PRs behind TELEGA, the whole product built solo</span>
+              </li>
+              <li class="stat">
+                <span class="stat__value">441</span>
+                <span class="stat__label">numbered requirements in Dohlianu, each implemented one traced to code and tests</span>
+              </li>
+              <li class="stat todo-wrap">
+                <span class="placeholder" data-todo="ai-metric">[ add: metric, e.g. PRs per month ]</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 Skills -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="wrap section__grid">
+        <div class="section__head">
+          <span class="section__num">02</span>
+          <h2 class="section__title" id="skills-title">Skills</h2>
+        </div>
+        <div class="section__body">
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">Backend</h3>
+            <ul class="tags">
+              <li>Ruby on Rails (5–7.1)</li>
+              <li>JSON:API</li>
+              <li>Pundit</li>
+              <li>Sidekiq</li>
+              <li>ViewComponent</li>
+              <li>Turbo / Stimulus</li>
+              <li>PostgreSQL / PostGIS</li>
+              <li>Redis</li>
+              <li>Node.js</li>
+              <li>NestJS</li>
+              <li>Drizzle ORM</li>
+              <li>Python</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">Frontend</h3>
+            <ul class="tags">
+              <li>React 18</li>
+              <li>TypeScript</li>
+              <li>Next.js 15</li>
+              <li>Tailwind CSS</li>
+              <li>zustand</li>
+              <li>MobX</li>
+              <li>MUI</li>
+              <li>react-hook-form</li>
+              <li>i18next</li>
+              <li>shadow DOM / embedded editors</li>
+              <li>Leaflet</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">Mobile and platforms</h3>
+            <ul class="tags">
+              <li>Expo / React Native</li>
+              <li>NativeWind</li>
+              <li>Telegram Bots</li>
+              <li>Telegram Mini Apps</li>
+              <li>Chrome extensions (Manifest V3)</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">Testing and quality</h3>
+            <ul class="tags">
+              <li>RSpec</li>
+              <li>Cucumber</li>
+              <li>headless testing: Cuprite / Ferrum, Playwright</li>
+              <li>debugging in real Safari and Chrome</li>
+              <li>CI on GitHub Actions</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">Tooling and infra</h3>
+            <ul class="tags">
+              <li>Docker</li>
+              <li>pnpm monorepos</li>
+              <li>esbuild</li>
+              <li>Bun</li>
+              <li>webpack</li>
+              <li>deploys via GitHub Actions</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">AI</h3>
+            <div>
+              <ul class="tags">
+                <li>Claude Code</li>
+                <li>Claude API</li>
+                <li>multi-agent orchestration</li>
+                <li>MCP</li>
+                <li>Playwright MCP</li>
+                <li>CLAUDE.md / AGENTS.md</li>
+                <li>custom skills</li>
+                <li>spec-driven development</li>
+              </ul>
+              <p class="skill-group__more">How this works in practice: <a class="link" href="#ai">see “Working with AI”</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 Experience. Employer, role and dates are placeholders: replace each
+         <span class="placeholder" ...> with plain text, e.g. <span>2022–2025</span>. -->
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="wrap section__grid">
+        <div class="section__head">
+          <span class="section__num">03</span>
+          <h2 class="section__title" id="experience-title">Experience</h2>
+        </div>
+        <div class="section__body">
+          <article class="job reveal">
+            <p class="job__meta">
+              <span class="placeholder" data-todo="job-1-dates">[ add: dates ]</span>
+              <span class="placeholder" data-todo="job-1-employer">[ add: company ]</span>
+              <span class="placeholder" data-todo="job-1-role">[ add: role ]</span>
+            </p>
+            <h3 class="job__title">Multi-tenant event platform</h3>
+            <p class="job__context">Client: a large exhibition organiser<span class="todo-wrap"> · <span class="placeholder" data-todo="job-1-client">[ add: client name ]</span></span></p>
+            <ul class="job__list">
+              <li>Rails monolith with several React/TypeScript SPAs: admin area and hub.</li>
+              <li>Visual microsite editor running inside shadow DOM; content blocks migrated to ViewComponent.</li>
+              <li>Ticket PDF generation, interactive hall plans, invitation management.</li>
+              <li>JSON:API authorization; consent management and reCAPTCHA architecture.</li>
+              <li>Cross-browser fixes, including Safari-specific layout bugs.</li>
+              <li>Wording and translation systems for multiple languages.</li>
+            </ul>
+            <ul class="stack">
+              <li>Ruby on Rails</li>
+              <li>React</li>
+              <li>TypeScript</li>
+              <li>JSON:API</li>
+              <li>ViewComponent</li>
+              <li>shadow DOM</li>
+            </ul>
+          </article>
+
+          <article class="job reveal">
+            <p class="job__meta">
+              <span class="placeholder" data-todo="job-2-dates">[ add: dates ]</span>
+              <span class="placeholder" data-todo="job-2-employer">[ add: company ]</span>
+              <span class="placeholder" data-todo="job-2-role">[ add: role ]</span>
+            </p>
+            <h3 class="job__title">Career-platform products</h3>
+            <p class="job__context">Sales app, shop, B2B portal, marketing website<span class="todo-wrap"> · <span class="placeholder" data-todo="job-2-client">[ add: client name ]</span></span></p>
+            <ul class="job__list">
+              <li>Migrated the sales app from Rails 5.0 / Ruby 2.4 / webpack to Rails 7.1 / Ruby 3.3 / esbuild + Tailwind + Turbo.</li>
+              <li>Rewrote the shop checkout in React 18 + TypeScript + zustand.</li>
+              <li>Worked on the B2B portal and the marketing website.</li>
+            </ul>
+            <ul class="stack">
+              <li>Rails 7.1</li>
+              <li>Ruby 3.3</li>
+              <li>esbuild</li>
+              <li>Tailwind CSS</li>
+              <li>Turbo</li>
+              <li>React 18</li>
+              <li>TypeScript</li>
+              <li>zustand</li>
+            </ul>
+          </article>
+
+          <article class="job reveal">
+            <p class="job__meta">
+              <span class="placeholder" data-todo="job-3-dates">[ add: dates ]</span>
+              <span class="placeholder" data-todo="job-3-employer">[ add: company ]</span>
+              <span class="placeholder" data-todo="job-3-role">[ add: role ]</span>
+            </p>
+            <h3 class="job__title">Internal ERP system</h3>
+            <p class="job__context">Time tracking and leave management</p>
+            <ul class="job__list">
+              <li>Rails 7 backend, React frontend with MUI and MobX.</li>
+            </ul>
+            <ul class="stack">
+              <li>Rails 7</li>
+              <li>React</li>
+              <li>MUI</li>
+              <li>MobX</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 Projects -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="wrap section__grid">
+        <div class="section__head">
+          <span class="section__num">04</span>
+          <h2 class="section__title" id="projects-title">Projects</h2>
+        </div>
+        <div class="section__body">
+          <h3 class="sub-title reveal">Own products</h3>
+          <div class="projects">
+            <article class="project project--featured reveal">
+              <div class="project__head">
+                <h3 class="project__title">TELEGA</h3>
+                <a class="project__link link" href="https://telega.apka.info">
+                  telega.apka.info
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg>
+                </a>
+              </div>
+              <div class="project__body">
+                <div>
+                  <p class="project__kicker">Telegram CRM for car sellers</p>
+                  <p>A bot plus a Telegram Mini App. The seller describes a car once, and an album post goes out to all of their channels. When the price or status changes, the posts and the pinned stock message update automatically. Cost and margin are tracked privately, for the seller’s eyes only.</p>
+                </div>
+                <ul class="project__facts">
+                  <li><strong>How it was built</strong>Solo, with AI agents: about 50 planned tasks / PRs</li>
+                  <li><strong>Status</strong>In production since November 2026</li>
+                </ul>
+              </div>
+              <ul class="stack">
+                <li>Telegram Bot</li>
+                <li>Telegram Mini App</li>
+              </ul>
+            </article>
+
+            <article class="project reveal">
+              <div class="project__head">
+                <h3 class="project__title">GavKit <small lang="uk">ГавКіт</small></h3>
+                <span class="placeholder" data-todo="gavkit-link">[ add: link ]</span>
+              </div>
+              <p class="project__kicker">Pet health tracker with a vet nearby</p>
+              <p>Monorepo: NestJS API, Expo mobile app, Next.js web and admin, shared packages for domain, UI, i18n and the API client.</p>
+              <ul class="stack">
+                <li>NestJS</li>
+                <li>Expo</li>
+                <li>Next.js</li>
+                <li>PostgreSQL + PostGIS</li>
+                <li>Redis</li>
+                <li>MinIO</li>
+              </ul>
+            </article>
+
+            <article class="project reveal">
+              <div class="project__head">
+                <h3 class="project__title">Dohlianu <small lang="uk">Догляну</small></h3>
+              </div>
+              <p class="project__kicker">Marketplace for home medical care: nurses and caregivers</p>
+              <p>The single source of truth is a list of 441 numbered requirements. Every implemented requirement is traced to code annotations and tests, and an automated check enforces it.</p>
+              <ul class="stack">
+                <li>Expo</li>
+                <li>Next.js 15</li>
+                <li>spec-driven development</li>
+              </ul>
+            </article>
+
+            <article class="project project--wide reveal">
+              <div class="project__head">
+                <h3 class="project__title">Sumy Safety Bot</h3>
+              </div>
+              <p class="project__kicker">Air-threat monitoring for the Sumy region</p>
+              <p>Listens to several Telegram channels, classifies messages with Claude (Haiku) into structured JSON, drops duplicates and publishes consolidated alerts to a single channel.</p>
+              <ul class="stack">
+                <li>Python</li>
+                <li>Telethon</li>
+                <li>SQLite</li>
+                <li>Claude API</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="minor reveal">
+            <h3 class="sub-title">Smaller projects</h3>
+            <ul class="minor__list">
+              <li>
+                <span class="minor__name">Family savings bot</span>
+                <span class="minor__desc">Telegram bot for family savings across multiple currencies. Python.</span>
+              </li>
+              <li>
+                <span class="minor__name">Historical map of Konotop</span>
+                <span class="minor__desc">Interactive historical map of the city. React + Express.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 Research -->
+    <section class="section" id="research" aria-labelledby="research-title">
+      <div class="wrap section__grid">
+        <div class="section__head">
+          <span class="section__num">05</span>
+          <h2 class="section__title" id="research-title">Research</h2>
+        </div>
+        <div class="section__body">
+          <article class="research reveal">
+            <p class="research__meta">
+              <span>PhD research</span>
+              <span class="placeholder" data-todo="phd-university">[ add: university ]</span>
+              <span class="placeholder" data-todo="phd-years">[ add: years ]</span>
+            </p>
+            <h3 class="research__title">A decision-support information system for ergonomic assurance of human-machine interaction reliability in ERP systems</h3>
+            <p class="research__text">The ERGO-DSS prototype adapts the HEART human-reliability method. Error-producing conditions are measured automatically from the interface rather than set by expert judgement: a browser extension collects telemetry and a computation engine written in Ruby produces the result.</p>
+            <ol class="pipeline">
+              <li><strong>Interface</strong><span>source of measurements</span></li>
+              <li><strong>Browser extension</strong><span>collects telemetry</span></li>
+              <li><strong>Ruby engine</strong><span>HEART computation</span></li>
+            </ol>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 Education and languages -->
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="wrap section__grid">
+        <div class="section__head">
+          <span class="section__num">06</span>
+          <h2 class="section__title" id="education-title">Education and languages</h2>
+        </div>
+        <div class="section__body edu-grid">
+          <div class="todo-wrap reveal">
+            <h3 class="sub-title">Education</h3>
+            <p><span class="placeholder" data-todo="education">[ add: degree, institution, years ]</span></p>
+          </div>
+          <div class="reveal">
+            <h3 class="sub-title">Languages</h3>
+            <dl class="lang-list">
+              <div>
+                <dt>Ukrainian</dt>
+                <dd>native</dd>
+              </div>
+              <div class="todo-wrap">
+                <dt>English</dt>
+                <dd><span class="placeholder" data-todo="english-level">[ add: level ]</span></dd>
+              </div>
+              <div class="todo-wrap">
+                <dt><span class="placeholder" data-todo="other-languages">[ add: other languages ]</span></dt>
+                <dd></dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 07 Contact -->
+  <footer class="site-footer" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <div class="section__grid">
+        <div class="section__head">
+          <span class="section__num">07</span>
+          <h2 class="section__title" id="contact-title">Contact</h2>
+        </div>
+        <div class="section__body">
+          <ul class="contact-list">
+            <li class="todo-wrap reveal">
+              <span class="contact-list__label">Email</span>
+              <span class="contact-list__value"><span class="placeholder" data-todo="email">[ add: email ]</span></span>
+            </li>
+            <li class="todo-wrap reveal">
+              <span class="contact-list__label">Telegram</span>
+              <span class="contact-list__value"><span class="placeholder" data-todo="telegram">[ add: Telegram ]</span></span>
+            </li>
+            <li class="todo-wrap reveal">
+              <span class="contact-list__label">LinkedIn</span>
+              <span class="contact-list__value"><span class="placeholder" data-todo="linkedin">[ add: LinkedIn ]</span></span>
+            </li>
+            <li class="todo-wrap reveal">
+              <span class="contact-list__label">Phone</span>
+              <span class="contact-list__value"><span class="placeholder" data-todo="phone">[ add: phone ]</span></span>
+            </li>
+            <li class="reveal">
+              <span class="contact-list__label">GitHub</span>
+              <a class="contact-list__value link" href="https://github.com/IhorKlym" rel="me">github.com/IhorKlym</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2026 Ihor Klymenko</p>
+        <p class="no-print">Static page: HTML, CSS and a little JavaScript. <a class="link" href="../" hreflang="uk" lang="uk">Українська версія</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
